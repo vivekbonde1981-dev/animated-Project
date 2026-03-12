@@ -267,7 +267,7 @@ const VideoScrubbingSlider = ({ min = 0, max = 100 }) => {
       {/* Background Video */}
       <video
         ref={videoRef}
-        src="/FinalBike3D.mp4"
+        src="FinalBike3D.mp4"
         onEnded={handleVideoEnd}
         playsInline
         muted // Note: Browsers often require mute for autoplay/manual scrubbing to be smooth

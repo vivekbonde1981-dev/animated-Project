@@ -57,7 +57,7 @@ const ScrollAnimation= () => {
         <div style={stickyWrapper}>
           <video
             ref={videoRef}
-            src="/burnoutBike.mp4"
+            src="burnoutBike.mp4"
             type="video/mp4"
             playsInline
             muted

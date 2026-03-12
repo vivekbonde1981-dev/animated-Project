@@ -1,6 +1,7 @@
 {
-  "name": "chapter2",
+  "name": "BigVana_project_1",
   "private": true,
+  "homepage": "/project_1/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

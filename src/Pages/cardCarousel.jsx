@@ -8,7 +8,7 @@ const CARD_DATA = [
     description: "Get lost in the lush greenery and ancient whispers of the deep woods.",
     color: "from-green-700 to-lime-500",
     tag: "Cruiser",
-    src:"/cruiser.png"
+    src:"cruiser.png"
   },
   {
     id: 2,
@@ -16,21 +16,21 @@ const CARD_DATA = [
     description: "Balanced performance machines (600cc–900cc) that offer a mix of street-usable torque and track-ready power",
     color: "from-purple-600 to-pink-500",
     tag: "Middleweigh.    .   ",
-    src:"/s-1200.jpg"
+    src:"s-1200.jpg"
   },
   {
     id: 3,
     title: "Suzuki GSX-R1000",
     description: "High-performance 1,000cc flagship bikes featuring elite racing technology and extreme power-to-weight ratios.",
     tag: "SuperBike",
-    src:"/sizuki.png"
+    src:"sizuki.png"
   },
   {
     id: 4,
     title: "Suzuki Hayabusa",
     description: "Heavyweight speed kings designed for massive acceleration and record-breaking top speeds, often exceeding 1,300cc.",
     tag: "HyperBike",
-    src:"/hyabusa.png"
+    src:"hyabusa.png"
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const CARD_DATA = [
     description: "Agile, beginner-friendly bikes with 250cc–500cc engines designed for learning and daily commuting",
     color: "from-blue-600 to-cyan-500",
     tag: "Lightweight",
-    src:"/kawasaki.png"
+    src:"kawasaki.png"
     
   },
   {
@@ -47,7 +47,7 @@ const CARD_DATA = [
     description: "Marvel at the northern lights and the pristine beauty of the frozen north.",
     color: "from-indigo-600 to-blue-500",
     tag: "Arctic",
-    src:"/backBike1.png"
+    src:"backBike1.png"
   }
 ];
 

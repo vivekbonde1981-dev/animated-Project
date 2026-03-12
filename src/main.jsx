@@ -9,25 +9,21 @@ import Carousel from './Pages/cardCarousel.jsx'
 import { HeroSection } from './Pages/index.js'
 import { BookForm } from './Pages/index.js'
 import ScrollAnimation from './Pages/scrollAnimation.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       { path: "", element: <HomePage /> },
-       { path: "connects", element: < ScrollAnimation/> },
-      { path: "contact", element: <BookForm 
-      //  Header={Header}
-        
-        /> },
-      { path: "bikes", element:<Carousel/> },
-      // { path: "service", element: <StackedCards /> },
-      //       { path: "thank-you", element: <ThankYou/> }
-
-
+      { path: "connects", element: <ScrollAnimation /> },
+      { path: "contact", element: <BookForm /> },
+      { path: "bikes", element: <Carousel /> },
     ]
   }
-]);
+], {
+  basename: "/project_1" // <--- ADD THIS LINE HERE
+});
 
 
 

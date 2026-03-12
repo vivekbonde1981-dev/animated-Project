@@ -119,7 +119,7 @@ const styles = {
     height: '100vh',
     width: '100vw',
     // backgroundColor: '#0a0a0a',
-    backgroundImage: 'url("/backBike1.png")',
+    backgroundImage: 'url("backBike1.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
