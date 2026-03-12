@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import "tailwindcss";
+
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'CASmut';
+  /* Ensure the path below matches exactly where you put the file */
+  src: url('./assets/fonts/CASmut-Fill.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Create a utility class for easy use */
+.explore {
+  user-select: none;
+  font-family: 'CASmut', sans-serif;
+  letter-spacing: 2px;
+
+  /* The Gradient Magic */
+  background: linear-gradient(
+    to left, 
+    #e7e5e5 0%,   /* Light silver top */
+    #7d7d7d 45%,  /* Mid-gray */
+    #cccccc 100%  /* Darker steel bottom */
+  );
+
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Making the actual text color transparent so the background shows through */
+  color: transparent;
+
+  /* Optional: subtle smoothing */
+  -webkit-font-smoothing: antialiased;
+}
+
+.culture{
+  user-select: none;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
+  background: linear-gradient(
+    to left, 
+    #e7e5e5 0%,   /* Light silver top */
+    #7d7d7d 45%,  /* Mid-gray */
+    #cccccc 100%  /* Darker steel bottom */
+  );
+
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Making the actual text color transparent so the background shows through */
+  color: transparent;
+
+  /* Optional: subtle smoothing */
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+@font-face {
+  font-family: 'ChinaDoll'; 
+  src: url('./assets/fonts/RICKSHAW.TTF') format('TrueType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.untold{
+  user-select: none;
+  font-family: "ChinaDoll", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
+  background: linear-gradient(
+    to left, 
+    #e7e5e5 0%,   /* Light silver top */
+    #7d7d7d 45%,  /* Mid-gray */
+    #cccccc 100%  /* Darker steel bottom */
+  );
+
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Making the actual text color transparent so the background shows through */
+  color: transparent;
+
+  /* Optional: subtle smoothing */
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: 'Winner'; 
+  /* src: url('./assets/fonts/RICKSHAW.TTF') format('TrueType'); */
+  src: url('./assets/fonts/WinnerCollege-XWideThin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.power{
+  user-select: none;
+  font-family: "Winner", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 100; */
+  font-style: normal;
+  letter-spacing:-5px;
+
+  background: linear-gradient(
+    to left, 
+    #e7e5e5 0%,   /* Light silver top */
+    #7d7d7d 45%,  /* Mid-gray */
+    #cccccc 100%  /* Darker steel bottom */
+  );
+
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Making the actual text color transparent so the background shows through */
+  color: transparent;
+
+  /* Optional: subtle smoothing */
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: 'Caveat'; 
+  src: url('./assets/fonts/Caveat-VariableFont_wght.ttf') format('TrueType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.crafted{
+  font-family: "Caveat";
+  font-size:2rem;
+}
+
+
+
+@font-face {
+  font-family: 'Anton'; 
+  src: url('./assets/fonts/Anton-Regular.ttf') format('TrueType');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.connect{
+  font-family:"Anton" ;
+}
